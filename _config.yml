@@ -26,23 +26,25 @@ author:
   avatar           : "profile.png"
   name             : "洪子祥"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  bio              : "渗透测试工程师"
+  bio              : "网络安全工程师"
+  bio              : "安全运营工程师"
+  # location         : "Earth"
+  # employer         : "Red Brick University"
+  # uri              : # URL
+  # email            : "none@example.org" 
 
   # Academic websites
-  # academia         : # URL
-  # arxiv            : # URL - Update with the correct link to your profile
-  # googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  # inspire-hep      : # URL
-  # impactstory      : # URL
-  # orcid            : "https://orcid.org/yourorcidurl"
-  # semantic         : # URL
-  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # researchgate     : # URL
-  # scopus           : # URL
+  academia         : # URL
+  arxiv            : # URL - Update with the correct link to your profile
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  inspire-hep      : # URL
+  impactstory      : # URL
+  orcid            : "https://orcid.org/yourorcidurl"
+  semantic         : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : # URL
+  scopus           : # URL
   telephone        : "13255907397"
 
   # Repositories and software development
