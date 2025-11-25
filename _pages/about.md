@@ -1,56 +1,159 @@
+洪子祥个人网站
+
+洪子祥 - 渗透测试工程师个人网站
+
+
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+
+title: "洪子祥：渗透测试工程师 | 网络安全从业者"
+
 author_profile: true
+
 redirect_from: 
-  - /about/
-  - /about.html
+
+- /about/
+
+- /about.html
+
+
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+个人简介
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+我是洪子祥，27岁，一名深耕网络安全领域的渗透测试工程师，拥有计算机科学与技术本科背景，及多年安全讲师、安全研究员、攻防研究员、安全运营工程师等多岗位从业经验。核心擅长Web安全渗透测试、红队评估、代码审计、安全运营与安全培训，熟悉各类网络安全漏洞的挖掘、复现与修复，参与过政企单位零信任体系建设、高校安全保障等多个重要项目，同时具备丰富的网络安全授课与赛事支撑经验。
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+联系方式：
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+- 电话：13255907397
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+- 邮箱：632772167@qq.com
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+教育背景
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+本科教育
 
-**Markdown generator**
+2016.09 - 2020.06 | 集美大学诚毅学院 | 计算机科学与技术（本科）
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+- 主修课程：C/C++程序设计、Java程序设计、操作系统、编译原理、软件工程等
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+职业培训
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+2017.03 - 2018.06 | 福建国科信息科技有限公司 | CCIE认证体系职业教育培训
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- 培训课程：CCNA、CCNP-R&S、企业系统、Web安全进阶、企业安全实战等
+
+工作经历
+
+2018.09 - 2021.06 | 福建国科信息科技有限公司 | 高级信息安全讲师
+
+1. 负责企业系统、安全初级、Web安全进阶、企业安全实战等多门课程授课，担任华厦学院、集美大学外聘讲师，授课风格获学员好评；
+
+2. 推动课程产品体系改革，完成课程体系框架重塑、大纲梳理、讲义制作等工作，完善课程内容。
+
+2021.06 - 2021.12 | 厦门服云科技有限公司（安全狗） | 安全研究员
+
+1. 支撑渗透测试、红队评估、应急响应等业务需求；
+
+2. 开发并优化Python安全工具及插件，完成功能性测试；
+
+3. 为厦门市多个政企单位开展安全意识培训。
+
+2021.12 - 2022.04 | 网宿科技股份有限公司 | 安全攻防研究员
+
+1. 跟踪内部CDN系统安全漏洞并推动修复；
+
+2. 收集业界最新漏洞的PoC/EXP，分析利用链与手法并完成复现、整改；
+
+3. 开展内部Web系统渗透测试并提交报告，通过内网渗透拿下700+云主机权限。
+
+2022.07 - 2023.10 | 奇安信科技集团股份有限公司 | 安全运营工程师
+
+1. 为客户提供资产梳理、漏洞扫描、应急响应、安全培训等日常安全运维服务；
+
+2. 完成10000+资产梳理，发现多个风险主机、内网弱口令及RCE漏洞；
+
+3. 为客户提供安全体系建设建议，服务能力获客户认可。
+
+2024.02 - 至今 | 厦门欧米克网络科技有限公司 | 网络安全工程师
+
+1. 支撑各大高校网络安全课程授课与交付（涵盖操作系统安全、密码学、Web安全等）；
+
+2. 负责应用系统等保工作，输出云安全等保最佳实践；
+
+3. 开展爬虫与反爬虫研究，完成内部安全运营工作，成功获取内网30+主机、5+集群、50+核心应用系统权限；
+
+4. 主导研发高校网络安全实训平台，搭建多个实战靶场。
+
+项目经验
+
+1. 2020.11 | 某局网络安全培训及CTF赛事支撑（信息安全讲师）：定制CTF相关培训课程，完成8小时培训，内容涵盖PHP反序列化、SQL注入、Reverse入门等，帮助客户提升安全技能与赛事理解。
+
+2. 2021.08 - 2021.12 | 厦门某国企子公司零信任体系建设项目（渗透测试工程师）：完成等保备案Web应用渗透测试，出具30+份报告，发现严重漏洞10+、高危漏洞50+，完成安全问题闭环。
+
+3. 2023.05 - 2023.06 | 厦门某高校教育重点安全保障项目（安全服务工程师）：开展靶标渗透测试、模拟红队评估等工作，监测到350960次攻击，封堵1158个IP，发现203个弱口令，项目成果获客户好评。
+
+4. 2023.11 | 厦门网络安全支撑单位某巡检项目（渗透测试工程师）：发现目标站点SQL注入、任意密码重置漏洞，及小程序Spring env未授权访问、内存泄露等漏洞，获取敏感接口密钥。
+
+5. 2023.11 | 福建省某高校新上线系统风险评估项目（渗透测试工程师）：发现文件上传、SQL注入、敏感信息泄露等漏洞，获取主机权限与系统数据。
+
+专业技能
+
+渗透测试类
+
+- 精通SQL注入、XSS注入、文件上传、未授权访问等Web安全漏洞及Owasp Top 10漏洞；
+
+- 精通常见应用（Redis、ZooKeeper、Hadoop等）漏洞利用方式；
+
+- 熟悉Fofa、Shodan等资产收集方法，及各类语言框架与CMS漏洞复现。
+
+红队评估类
+
+- 熟悉外网（主机、Web）与内网（横向、域渗透）渗透方法，掌握金银票据、各类提权等权限维持手法；
+
+- 熟悉绕WAF技术与二进制免杀，能熟练使用Burp、Metasploit、CobaltStrike等安全工具。
+
+代码审计类
+
+- 精通PHP代码审计，熟悉Java SE/Spring框架及自动化审计工具（fortify、Code QL等）；
+
+- 能分析逻辑漏洞底层代码并编写最佳实践。
+
+安全运营类
+
+- 熟悉TCP/IP协议、各类安全设备（防火墙、WAF等）功能机制，掌握安全体系建设思路；
+
+- 能快速研判安全告警，联动设备完成客户需求。
+
+自动化工具类
+
+- 精通Python及第三方库，能开发安全工具，实现告警提取、自动化巡检、信息搜集等功能。
+
+安全培训类
+
+- 熟悉安全意识、Web安全等培训方法，掌握CTF各类题型与解题技巧，具备优秀的演讲能力。
+
+相关经验
+
+作为MS08067安全实验室核心成员，主要工作包括：
+
+1. 负责Web安全零基础、进阶班级授课及公开课分享；
+
+2. 参与编写并校对《Web安全攻防：渗透测试实战指南》第二版；
+
+3. 担任实验室知识星球《Web安全【MS08067】》主负责人，产出10+篇原创文章。
+
+荣誉证书
+
+- “百越杯”网络空间安全大赛三等奖；
+
+- 组织培训带领杭州某医疗单位获医疗行业CTF三等奖；
+
+- 组织培训带领莆田学院学生获福建省第二届工控安全大赛三等奖。
+
+
+---
+
+
+---
