@@ -26,34 +26,33 @@ author:
   avatar           : "profile.png"
   name             : "洪子祥"
   pronouns         : # example: "she/her"  
-  bio              : "渗透测试工程师"
-  bio              : "网络安全工程师"
-  bio              : "安全运营工程师"
+  bio              : "渗透测试工程师<br>网络安全工程师<br>安全运营工程师"
+
   # location         : "Earth"
   # employer         : "Red Brick University"
   # uri              : # URL
   # email            : "none@example.org" 
 
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
-  semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  telephone        : "13255907397"
+  # # Academic websites
+  # academia         : # URL
+  # arxiv            : # URL - Update with the correct link to your profile
+  # googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  # inspire-hep      : # URL
+  # impactstory      : # URL
+  # orcid            : "https://orcid.org/yourorcidurl"
+  # semantic         : # URL
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # researchgate     : # URL
+  # scopus           : # URL
+  # telephone        : "13255907397"
 
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+  # # Repositories and software development
+  # bitbucket        : # Username - Update with your username on the site
+  # codepen          : # Username
+  # dribbble         : # Username
+  # github           : "academicpages"
+  # kaggle           : # Username  
+  # stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
