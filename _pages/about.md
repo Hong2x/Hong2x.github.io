@@ -1,7 +1,7 @@
 ---
 permalink: /
 
-title: "洪子祥：渗透测试工程师 | 网络安全从业者"
+title: "洪子祥：渗透测试工程师 、 网络安全从业者"
 
 author_profile: true
 
