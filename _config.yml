@@ -13,7 +13,7 @@ title                    : "Hong2x's WebSite"
 title_separator          : "-"
 name                     : &name "Hong2x"
 description              : &description "Hong2x's WebSite"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://Hong2x.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Hong2x/Hong2x.github.io"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "洪子祥"
   pronouns         : # example: "she/her"  
-  bio              : "渗透测试工程师<br>网络安全工程师<br>安全运营工程师"
+  bio              : "渗透测试工程师<br><br><br>网络安全工程师<br><br><br>安全运营工程师"
 
   # location         : "Earth"
   # employer         : "Red Brick University"
