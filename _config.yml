@@ -23,7 +23,7 @@ repository               : "Hong2x/Hong2x.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "证件照Hi2x.jpg"
   name             : "洪子祥"
   pronouns         : # example: "she/her"  
   bio              : "渗透测试工程师<br><br><br>网络安全工程师<br><br><br>安全运营工程师"
